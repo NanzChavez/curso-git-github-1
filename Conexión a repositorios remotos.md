@@ -38,12 +38,12 @@ Descargar objetos y referencias del repositorio remoto:
 git fetch curso-git
 ```
 
-Se procede a hacer un `pullmerge` ,  o bien, una adaptación de los datos a tu repositorio local: 
+Se procede a hacer un `pull` ,  o bien, una adaptación de los datos a tu repositorio local: 
 ```bash
 git pull curso-git main
 ```
 
-Otra forma elegante de hacer lo anterior, es haciendo un `` para combinar los datos de la rama por omisión del repositorio remoto con la rama del repositorio local.
+Otra forma elegante de hacer lo anterior, es haciendo un `merge` para combinar los datos de la rama por omisión del repositorio remoto con la rama del repositorio local.
 ```bash
 git merge curso-git/master
 ```
